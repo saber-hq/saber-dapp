@@ -1,0 +1,17 @@
+{
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "cSpell.words": ["pubkey", "solana", "saber"],
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#5e5bde",
+    "titleBar.inactiveBackground": "#5e5bde",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveForeground": "#ffffff"
+  }
+}

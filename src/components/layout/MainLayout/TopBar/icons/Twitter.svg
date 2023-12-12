@@ -1,0 +1,41 @@
+<svg width="20" height="20" viewBox="28 16 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g filter="url(#filter0_d_twitter)">
+        <rect x="28" y="16" width="20" height="20" rx="8" fill="url(#paint0_linear_twitter)" />
+    </g>
+    <g filter="url(#filter1_d_twitter)">
+        <path
+            d="M45.0841 21.5991C44.5597 21.8295 43.9996 21.9865 43.41 22.0581C44.0109 21.6963 44.4731 21.1259 44.6918 20.4454C44.1282 20.7741 43.5036 21.0134 42.8387 21.1466C42.3077 20.5787 41.551 20.2233 40.7106 20.2233C39.1005 20.2233 37.795 21.5281 37.795 23.1355C37.795 23.3665 37.8217 23.5886 37.8702 23.8012C35.4465 23.6869 33.2982 22.5237 31.8606 20.7652C31.6075 21.1928 31.4659 21.6898 31.4659 22.2311C31.4659 23.2439 31.9814 24.1341 32.7625 24.657C32.2843 24.6416 31.8345 24.5101 31.4422 24.2922V24.3283C31.4422 25.7409 32.4455 26.9189 33.7806 27.1872C33.5359 27.2529 33.2775 27.2885 33.0126 27.2885C32.8265 27.2885 32.6481 27.2707 32.4698 27.2375C32.8437 28.3942 33.9187 29.2376 35.1982 29.2613C34.2026 30.0425 32.9409 30.5081 31.582 30.5081C31.3509 30.5081 31.1204 30.4944 30.8887 30.4684C32.1859 31.294 33.7143 31.7767 35.367 31.7767C40.7326 31.7767 43.663 27.337 43.663 23.4932C43.663 23.3694 43.663 23.2445 43.6541 23.1201C44.2236 22.712 44.7208 22.1961 45.112 21.611L45.0841 21.5991Z"
+            fill="url(#paint1_linear_twitter)" />
+    </g>
+    <defs>
+        <filter id="filter0_d_twitter" x="4" y="4" width="68" height="68" filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="12" />
+            <feGaussianBlur stdDeviation="12" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+        </filter>
+        <filter id="filter1_d_twitter" x="0.888672" y="0.223297" width="74.2233" height="71.5534"
+            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+            <feOffset dy="10" />
+            <feGaussianBlur stdDeviation="15" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_twitter" x1="38" y1="16" x2="38" y2="36" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#1DA1F2" />
+            <stop offset="1" stop-color="#0C85CF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear_twitter" x1="38.0003" y1="20.2233" x2="38.0003" y2="31.7767"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="white" stop-opacity="0.75" />
+        </linearGradient>
+    </defs>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "source": ["./design-system/design-tokens.json"],
+  "platforms": {
+    "saber": {
+      "transformGroup": "lightsaber",
+      "files": [
+        {
+          "format": "theme",
+          "destination": "src/theme/raw.ts"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+name: Deploy Master to Production
+
+on:
+  push:
+    branches: [master]
+
+env:
+  SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+  REACT_APP_SENTRY_RELEASE: gh-${{ github.sha }}
+  SENTRY_RELEASE: gh-${{ github.sha }}
+  GIT_COMMIT_SHA: ${{ github.sha }}
+  REACT_APP_SENTRY_ENV: production
+  SENTRY_ENV: production
+  REACT_APP_RPC_POOL_DEVNET_TOKEN: 8995c4f8b50b50f556aefc0a8bf4
+
+jobs:
+  deploy-dist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+      - name: Yarn Cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-modules-
+      - run: yarn install
+      - name: Build Cache
+        uses: actions/cache@v3
+        with:
+          path: ./node_modules/.cache/
+          key: ${{ runner.os }}-site-saber-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-site-saber-
+      - run: yarn build:production

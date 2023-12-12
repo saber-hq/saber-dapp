@@ -1,0 +1,12 @@
+{
+  "extends": "@saberhq/tsconfig/tsconfig.react.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "isolatedModules": true
+  },
+  "files": ["src/types.d.ts"],
+  "include": ["src/", "scripts/", ".eslintrc.cjs"]
+}
