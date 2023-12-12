@@ -17961,6 +17961,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"querystringify@npm:^2.1.1":
+  version: 2.2.0
+  resolution: "querystringify@npm:2.2.0"
+  checksum: 46ab16f252fd892fc29d6af60966d338cdfeea68a231e9457631ffd22d67cec1e00141e0a5236a2eb16c0d7d74175d9ec1d6f963660c6f2b1c2fc85b194c5680
+  languageName: node
+  linkType: hard
+
 "queue-microtask@npm:^1.2.2":
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
@@ -20680,13 +20687,14 @@ __metadata:
   linkType: hard
 
 "tough-cookie@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "tough-cookie@npm:4.0.0"
+  version: 4.1.3
+  resolution: "tough-cookie@npm:4.1.3"
   dependencies:
     psl: "npm:^1.1.33"
     punycode: "npm:^2.1.1"
-    universalify: "npm:^0.1.2"
-  checksum: 1c9764cbe14f14b6d1a1c1985ca38e04cccdbb8436c00837b27dd7106234a94057849606590a7301bd97faf3b309208b25e2a4f10091d4340526dc5e4ffa1b91
+    universalify: "npm:^0.2.0"
+    url-parse: "npm:^1.5.3"
+  checksum: cf148c359b638a7069fc3ba9a5257bdc9616a6948a98736b92c3570b3f8401cf9237a42bf716878b656f372a1fb65b74dd13a46ccff8eceba14ffd053d33f72a
   languageName: node
   linkType: hard
 
@@ -21190,10 +21198,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"universalify@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "universalify@npm:0.1.2"
-  checksum: 40cdc60f6e61070fe658ca36016a8f4ec216b29bf04a55dce14e3710cc84c7448538ef4dad3728d0bfe29975ccd7bfb5f414c45e7b78883567fb31b246f02dff
+"universalify@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "universalify@npm:0.2.0"
+  checksum: e86134cb12919d177c2353196a4cc09981524ee87abf621f7bc8d249dbbbebaec5e7d1314b96061497981350df786e4c5128dbf442eba104d6e765bc260678b5
   languageName: node
   linkType: hard
 
@@ -21287,6 +21295,16 @@ __metadata:
   dependencies:
     punycode: "npm:^2.1.0"
   checksum: b271ca7e3d46b7160222e3afa3e531505161c9a4e097febae9664e4b59912f4cbe94861361a4175edac3a03fee99d91e44b6a58c17a634bc5a664b19fc76fbcb
+  languageName: node
+  linkType: hard
+
+"url-parse@npm:^1.5.3":
+  version: 1.5.10
+  resolution: "url-parse@npm:1.5.10"
+  dependencies:
+    querystringify: "npm:^2.1.1"
+    requires-port: "npm:^1.0.0"
+  checksum: c9e96bc8c5b34e9f05ddfeffc12f6aadecbb0d971b3cc26015b58d5b44676a99f50d5aeb1e5c9e61fa4d49961ae3ab1ae997369ed44da51b2f5ac010d188e6ad
   languageName: node
   linkType: hard
 
