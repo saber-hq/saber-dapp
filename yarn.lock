@@ -5110,7 +5110,7 @@ __metadata:
     "@saberhq/solana-contrib": "npm:^1.14.4"
     "@saberhq/stableswap-sdk": "npm:^1.14.4"
     "@saberhq/token-utils": "npm:^1.14.4"
-    "@saberhq/tsconfig": "npm:^3.1.1"
+    "@saberhq/tsconfig": "npm:^3.2.1"
     "@saberhq/use-solana": "npm:^1.14.4"
     "@sentry/integrations": "npm:^7.11.1"
     "@sentry/react": "npm:^7.11.1"
@@ -5330,10 +5330,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@saberhq/tsconfig@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@saberhq/tsconfig@npm:3.1.1"
-  checksum: db789591f0e949aa9cd4e41999310e51d939111a42df21d3624391177076dd53a5f51812a891880c8d360ae7c52c6d6f36a0949dfabd266e922d5f401ffd663c
+"@saberhq/tsconfig@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "@saberhq/tsconfig@npm:3.2.1"
+  checksum: 30f96a3975e5b1150f20c86c3b53c40c3c3df37688190ce133b2a7cf5097f95f18fde05ec743a910a5d3a4275c1015eec52b1d0087c37b6a02859ec668efedf0
   languageName: node
   linkType: hard
 
