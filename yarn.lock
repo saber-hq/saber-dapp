@@ -12055,23 +12055,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
-  version: 1.14.3
-  resolution: "follow-redirects@npm:1.14.3"
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.7, follow-redirects@npm:^1.14.9":
+  version: 1.15.4
+  resolution: "follow-redirects@npm:1.15.4"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: 716814ac53148c7a5bc22509624ea63139261e1594b0f133dd29be59b927c096e6c8f73edf8cbd35b0e404493e2f2225a296fd42951115770047c79afb3eaae3
-  languageName: node
-  linkType: hard
-
-"follow-redirects@npm:^1.14.7, follow-redirects@npm:^1.14.9":
-  version: 1.14.9
-  resolution: "follow-redirects@npm:1.14.9"
-  peerDependenciesMeta:
-    debug:
-      optional: true
-  checksum: 01aee154da6f46cc37c115600d4b49c2a0b5a2e516418c176642463b63157769d3b91778c7b552fb01f94eb53618c1da0af81e66b5b7c8a2223f8e204eadc9ea
+  checksum: 2e8f5f259a6b02dfa8dc199e08431848a7c3beed32eb4c19945966164a52c89f07b86c3afcc32ebe4279cf0a960520e45a63013d6350309c5ec90133c5d9351a
   languageName: node
   linkType: hard
 
