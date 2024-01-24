@@ -5201,7 +5201,7 @@ __metadata:
     url: "npm:^0.11.0"
     use-debounce: "npm:^8.0.1"
     util-deprecate: "npm:^1.0.2"
-    webpack: "npm:^5.89.0"
+    webpack: "npm:^5.90.0"
     webpack-bundle-analyzer: "npm:^4.10.1"
   dependenciesMeta:
     "@react-spring/core":
