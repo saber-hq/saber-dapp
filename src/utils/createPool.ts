@@ -105,7 +105,7 @@ export default async function createPool({
   if (tokenB.mintAccount.equals(NATIVE_MINT)) {
     const initB = await wrapAndSendSOLToATA({
       provider,
-      amount: initialAmountA,
+      amount: initialAmountB,
     });
     initTX = initTX.combine(initB);
   }
