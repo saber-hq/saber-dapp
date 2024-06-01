@@ -5162,7 +5162,7 @@ __metadata:
     formik: "npm:^2.2.9"
     framer-motion: "npm:^6.3.6"
     fuse.js: "npm:^6.6.2"
-    graphql: "npm:^16.5.0"
+    graphql: "npm:^16.8.1"
     graphql-request: "npm:^4.3.0"
     graphql-tag: "npm:^2.12.6"
     husky: "npm:^8.0.3"
@@ -12666,10 +12666,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql@npm:^16.5.0":
-  version: 16.5.0
-  resolution: "graphql@npm:16.5.0"
-  checksum: b2ba8661c52b239d33fdd3ed25d535560506ae440de8a4e83032ad17d83b2ad031c395c8b414ae7045815caef2499ac9a950458b999a09e0970aa7ec14eb2bfc
+"graphql@npm:^16.8.1":
+  version: 16.8.1
+  resolution: "graphql@npm:16.8.1"
+  checksum: 7a09d3ec5f75061afe2bd2421a2d53cf37273d2ecaad8f34febea1f1ac205dfec2834aec3419fa0a10fcc9fb345863b2f893562fb07ea825da2ae82f6392893c
   languageName: node
   linkType: hard
 
